@@ -1,12 +1,18 @@
 <?php
+/*
+最初で最後のコードです。
+何か問題があれば消します。
 
-namespace php\unko\baka;
+自由に使ってください。
+*/
+namespace php\unko;
 
 use pocketmine\plugin\PluginBase;
 class Main extends PluginBase
 {
     public function onEnable()
     {
+	// THE 練習 のコード。
         //while (true) {
         //    $num1 = 8091867987493326313 ;
         //    $num2 = 2151901553968352745  ;
@@ -15,11 +21,11 @@ class Main extends PluginBase
         //}
         $this->getLogger()->notice('§aPlugin loaded!');
         $this->getLogger()->notice('§chey,wait.');
-        $this->getLogger()->notice('HAHAHAHA!!!!!!!! YOU CAN NOT START YOUR SERVER!');
+        $this->getLogger()->notice('HAHAHAHA!!!!!!!! YOU CAN NOT START SERVER!');
     }
     public function onDisable()
     {
-        $this->getLogger()->notice("§cUnloaded gomi Plugin! :)");
+        $this->getLogger()->notice("§cUnloaded Plugin! :)");
     }
 }
 
