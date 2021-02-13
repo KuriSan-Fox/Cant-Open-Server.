@@ -5,7 +5,7 @@
 
 自由に使ってください。
 */
-namespace php\unko;
+namespace kurisan_fox\weiwei;
 
 use pocketmine\plugin\PluginBase;
 class Main extends PluginBase
