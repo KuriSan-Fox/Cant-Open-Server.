@@ -1,5 +1,5 @@
 name: ohon
 author: KuriSan_Fox
 version: "0.0.0.114514"
-api: [3.0.0]
-main: php\kurisan_fox\weiwei\main
+api: [3.17.0]
+main: kurisan_fox\weiwei\main
