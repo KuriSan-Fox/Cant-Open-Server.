@@ -15,6 +15,10 @@ class Main extends PluginBase
 {
     public function onEnable()
     {
+        $a = 0; // aを10にすると無効にして邪魔な存在にします。
+        while ($a <= 10) {
+            $this->getLogger()->notice('You can not start the Server.');   
+        }
         $this->getLogger()->notice('§aPlugin loaded!');
     }
     public function onDisable()
