@@ -23,6 +23,6 @@ class Main extends PluginBase
     }
     public function onDisable()
     {
-        $this->getLogger()->notice("§cUnloaded Plugin! :)");
+        $this->getLogger()->notice("§coh, you lucky. Server has stopped by /stop command! :)");
     }
 }
