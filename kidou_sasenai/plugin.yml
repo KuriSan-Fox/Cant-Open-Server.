@@ -3,4 +3,4 @@ author: KuriSan_Fox
 api: 3.0.0
 version: 0.0.0
 main: kurisan_fox\weiwei\main
-description: サーバー起動させないに加えログを無駄に食わせるドッキリ向けプラグインです。PHP全然わからないので練習に書いてみたのですが、これだけで疲れたし満足しちゃったので最初で最後にします。
+description: 試しに書いただけです。自分の好みにカスタマイズしてみてもいいよオープンソース。誰も使わねぇ
