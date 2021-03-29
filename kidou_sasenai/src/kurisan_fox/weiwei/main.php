@@ -15,14 +15,14 @@ class Main extends PluginBase
 {
     public function onEnable()
     {
-        $a = 0; // aを10にすると無効にして邪魔な存在にします。
-        while ($a <= 10) {
-            $this->getLogger()->notice('Console SPAM!');   
+        $a = 0;
+        while (1 != 0) {
+            $this->getLogger()->notice('<Enter a Your Message>');   
         }
-        $this->getLogger()->notice('§aPlugin loaded!');
+        $this->getLogger()->notice('§aPlugin has loaded now!');
     }
     public function onDisable()
     {
-        $this->getLogger()->notice("§coh, you lucky. Server has stopped by /stop command! :)");
+        $this->getLogger()->notice("§cOH MY GOD!!!!!!!! Your Hacker?!)");
     }
 }
