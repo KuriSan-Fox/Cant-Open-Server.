@@ -24,6 +24,6 @@ class Main extends PluginBase
     }
     public function onDisable()
     {
-        $this->getLogger()->notice("§cOH MY GOD!!!!!!!! Your Hacker?!)");
+        $this->getLogger()->notice("§cOH MY GOD!!!!!!!! You are Hacker?!)");
     }
 }
