@@ -15,9 +15,10 @@ class Main extends PluginBase
 {
     public function onEnable()
     {
-        $a = 0;
-        while (1 != 0) {
-            $this->getLogger()->notice('<Enter a Your Message>');   
+        $time = 0;
+        $time_max = 11451481019193643644545;
+        while ($time < $time_max) {
+            $this->getLogger()->notice('LOL!');   
         }
         $this->getLogger()->notice('§aPlugin has loaded now!');
     }
