@@ -1,6 +1,6 @@
 name: DontStartServer
 author: KuriSan_Fox
 api: 3.20.0
-version: 1.0.2.1
+version: 1.0.3
 main: kurisan_fox\weiwei\main
 description: 起動させない。
